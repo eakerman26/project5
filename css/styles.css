@@ -340,4 +340,12 @@ template {
 [hidden] {
   display: none;
 }
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1200px;
+  -ms-grid-columns: (minmax(200px, 300px))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+}
 /*# sourceMappingURL=styles.css.map */
